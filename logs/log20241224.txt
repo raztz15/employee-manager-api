@@ -1,0 +1,246 @@
+2024-12-24 02:40:40.859 +02:00 [INF] Starting up the application...
+2024-12-24 02:40:40.967 +02:00 [INF] Application is running.
+2024-12-24 02:40:41.044 +02:00 [INF] Now listening on: http://localhost:5206
+2024-12-24 02:40:41.050 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 02:40:41.051 +02:00 [INF] Hosting environment: Development
+2024-12-24 02:40:41.052 +02:00 [INF] Content root path: C:\Users\Dekel Raz\EmployeeManagerAPI
+2024-12-24 02:41:47.389 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/manager/all - application/json 77
+2024-12-24 02:41:47.430 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-12-24 02:41:47.433 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.ManagerController.GetAllManagers (EmployeeManagerAPI)'
+2024-12-24 02:41:47.446 +02:00 [INF] Route matched with {action = "GetAllManagers", controller = "Manager"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllManagers() on controller EmployeeManagerAPI.Controllers.ManagerController (EmployeeManagerAPI).
+2024-12-24 02:41:47.456 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeManagerAPI.Models.Manager, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 02:41:47.474 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.ManagerController.GetAllManagers (EmployeeManagerAPI) in 23.5631ms
+2024-12-24 02:41:47.477 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.ManagerController.GetAllManagers (EmployeeManagerAPI)'
+2024-12-24 02:41:47.479 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/manager/all - 200 null application/json; charset=utf-8 91.9773ms
+2024-12-24 02:46:31.292 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5206/api/employee/update/f63dc836-8c70-4119-9643-2a9bd9c0946d - null null
+2024-12-24 02:46:31.298 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:46:31.301 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5206/api/employee/update/f63dc836-8c70-4119-9643-2a9bd9c0946d - 204 null null 9.9858ms
+2024-12-24 02:46:31.305 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5206/api/employee/update/f63dc836-8c70-4119-9643-2a9bd9c0946d - application/json 213
+2024-12-24 02:46:31.310 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:46:31.312 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.UpdateEmployee (EmployeeManagerAPI)'
+2024-12-24 02:46:31.321 +02:00 [INF] Route matched with {action = "UpdateEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateEmployee(System.Guid, EmployeeManagerAPI.Models.Employee) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 02:46:31.347 +02:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-24 02:46:31.351 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.UpdateEmployee (EmployeeManagerAPI) in 29.4379ms
+2024-12-24 02:46:31.352 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.UpdateEmployee (EmployeeManagerAPI)'
+2024-12-24 02:46:31.355 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5206/api/employee/update/f63dc836-8c70-4119-9643-2a9bd9c0946d - 404 null application/json; charset=utf-8 49.8779ms
+2024-12-24 02:46:51.495 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/manager/2ebde465-298b-4b23-aea4-2fb8cffbe96c - null null
+2024-12-24 02:46:51.497 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:46:51.499 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 02:46:51.502 +02:00 [INF] Route matched with {action = "GetEmployeesByManager", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeesByManager(System.Guid) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 02:46:51.505 +02:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-24 02:46:51.507 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI) in 3.5649ms
+2024-12-24 02:46:51.508 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 02:46:51.510 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/manager/2ebde465-298b-4b23-aea4-2fb8cffbe96c - 404 null text/plain; charset=utf-8 15.5597ms
+2024-12-24 02:47:18.719 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5206/api/manager/register - null null
+2024-12-24 02:47:18.722 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:47:18.723 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5206/api/manager/register - 204 null null 3.8898ms
+2024-12-24 02:47:18.726 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5206/api/manager/register - application/json 71
+2024-12-24 02:47:18.728 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:47:18.729 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.ManagerController.RegisterManager (EmployeeManagerAPI)'
+2024-12-24 02:47:18.732 +02:00 [INF] Route matched with {action = "RegisterManager", controller = "Manager"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RegisterManager(EmployeeManagerAPI.Models.Manager) on controller EmployeeManagerAPI.Controllers.ManagerController (EmployeeManagerAPI).
+2024-12-24 02:47:18.753 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-24 02:47:18.756 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.ManagerController.RegisterManager (EmployeeManagerAPI) in 22.7207ms
+2024-12-24 02:47:18.758 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.ManagerController.RegisterManager (EmployeeManagerAPI)'
+2024-12-24 02:47:18.761 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5206/api/manager/register - 200 null application/json; charset=utf-8 34.8001ms
+2024-12-24 02:47:54.053 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5206/api/manager/login - null null
+2024-12-24 02:47:54.055 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:47:54.056 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5206/api/manager/login - 204 null null 3.6094ms
+2024-12-24 02:47:54.060 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5206/api/manager/login - application/json 48
+2024-12-24 02:47:54.062 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:47:54.062 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.ManagerController.LoginManager (EmployeeManagerAPI)'
+2024-12-24 02:47:54.064 +02:00 [INF] Route matched with {action = "LoginManager", controller = "Manager"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginManager(EmployeeManagerAPI.Models.LoginRequest) on controller EmployeeManagerAPI.Controllers.ManagerController (EmployeeManagerAPI).
+2024-12-24 02:47:54.071 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[EmployeeManagerAPI.Models.Manager, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 02:47:54.074 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.ManagerController.LoginManager (EmployeeManagerAPI) in 8.4446ms
+2024-12-24 02:47:54.077 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.ManagerController.LoginManager (EmployeeManagerAPI)'
+2024-12-24 02:47:54.078 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5206/api/manager/login - 200 null application/json; charset=utf-8 17.9043ms
+2024-12-24 02:48:02.439 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/search?name=em - null null
+2024-12-24 02:48:02.442 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:48:02.444 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 02:48:02.445 +02:00 [INF] Route matched with {action = "SearchEmployeesByName", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchEmployeesByName(System.String) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 02:48:02.452 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 02:48:02.453 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI) in 5.7086ms
+2024-12-24 02:48:02.454 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 02:48:02.455 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/search?name=em - 200 null application/json; charset=utf-8 16.1303ms
+2024-12-24 02:48:02.485 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/search?name=emp - null null
+2024-12-24 02:48:02.486 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:48:02.487 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 02:48:02.488 +02:00 [INF] Route matched with {action = "SearchEmployeesByName", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchEmployeesByName(System.String) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 02:48:02.490 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 02:48:02.491 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI) in 2.4457ms
+2024-12-24 02:48:02.493 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 02:48:02.494 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/search?name=emp - 200 null application/json; charset=utf-8 9.4684ms
+2024-12-24 02:48:02.669 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/search?name=empl - null null
+2024-12-24 02:48:02.670 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:48:02.671 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 02:48:02.672 +02:00 [INF] Route matched with {action = "SearchEmployeesByName", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchEmployeesByName(System.String) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 02:48:02.675 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 02:48:02.676 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI) in 1.5469ms
+2024-12-24 02:48:02.677 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 02:48:02.678 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/search?name=empl - 200 null application/json; charset=utf-8 9.4133ms
+2024-12-24 02:48:05.765 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/search?name=Employee%20One - null null
+2024-12-24 02:48:05.768 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:48:05.769 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 02:48:05.769 +02:00 [INF] Route matched with {action = "SearchEmployeesByName", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchEmployeesByName(System.String) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 02:48:05.772 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 02:48:05.773 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI) in 2.0399ms
+2024-12-24 02:48:05.774 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 02:48:05.775 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/search?name=Employee%20One - 200 null application/json; charset=utf-8 10.0284ms
+2024-12-24 02:48:15.644 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/manager/95c1104f-c380-40e1-a348-c3621ecc264c - null null
+2024-12-24 02:48:15.646 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:48:15.647 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 02:48:15.667 +02:00 [INF] Route matched with {action = "GetEmployeesByManager", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeesByManager(System.Guid) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 02:48:15.671 +02:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-24 02:48:15.675 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI) in 3.6992ms
+2024-12-24 02:48:15.677 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 02:48:15.678 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/manager/95c1104f-c380-40e1-a348-c3621ecc264c - 404 null text/plain; charset=utf-8 34.0583ms
+2024-12-24 02:48:43.366 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5206/api/employee/create - null null
+2024-12-24 02:48:43.368 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:48:43.368 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5206/api/employee/create - 204 null null 2.6937ms
+2024-12-24 02:48:43.392 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5206/api/employee/create - application/json 123
+2024-12-24 02:48:43.395 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:48:43.396 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.CreateEmployee (EmployeeManagerAPI)'
+2024-12-24 02:48:43.399 +02:00 [INF] Route matched with {action = "CreateEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateEmployee(EmployeeManagerAPI.Models.Employee) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 02:48:43.404 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 02:48:43.409 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.CreateEmployee (EmployeeManagerAPI) in 6.6238ms
+2024-12-24 02:48:43.411 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.CreateEmployee (EmployeeManagerAPI)'
+2024-12-24 02:48:43.412 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5206/api/employee/create - 200 null application/json; charset=utf-8 19.3317ms
+2024-12-24 02:48:51.079 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/manager/95c1104f-c380-40e1-a348-c3621ecc264c - null null
+2024-12-24 02:48:51.089 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:48:51.091 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 02:48:51.092 +02:00 [INF] Route matched with {action = "GetEmployeesByManager", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeesByManager(System.Guid) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 02:48:51.095 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 02:48:51.097 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI) in 2.3784ms
+2024-12-24 02:48:51.099 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 02:48:51.100 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/manager/95c1104f-c380-40e1-a348-c3621ecc264c - 200 null application/json; charset=utf-8 21.2402ms
+2024-12-24 02:49:03.885 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5206/api/employee/update/c4f7fbf9-1187-490b-9e77-231253c09463 - null null
+2024-12-24 02:49:03.887 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:49:03.887 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5206/api/employee/update/c4f7fbf9-1187-490b-9e77-231253c09463 - 204 null null 2.0664ms
+2024-12-24 02:49:03.889 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5206/api/employee/update/c4f7fbf9-1187-490b-9e77-231253c09463 - application/json 217
+2024-12-24 02:49:03.891 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:49:03.892 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.UpdateEmployee (EmployeeManagerAPI)'
+2024-12-24 02:49:03.893 +02:00 [INF] Route matched with {action = "UpdateEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateEmployee(System.Guid, EmployeeManagerAPI.Models.Employee) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 02:49:03.894 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 02:49:03.895 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.UpdateEmployee (EmployeeManagerAPI) in 1.4733ms
+2024-12-24 02:49:03.896 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.UpdateEmployee (EmployeeManagerAPI)'
+2024-12-24 02:49:03.897 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5206/api/employee/update/c4f7fbf9-1187-490b-9e77-231253c09463 - 200 null application/json; charset=utf-8 7.7492ms
+2024-12-24 02:49:12.787 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5206/api/employee/delete/c4f7fbf9-1187-490b-9e77-231253c09463 - null null
+2024-12-24 02:49:12.789 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:49:12.790 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5206/api/employee/delete/c4f7fbf9-1187-490b-9e77-231253c09463 - 204 null null 2.9277ms
+2024-12-24 02:49:12.793 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5206/api/employee/delete/c4f7fbf9-1187-490b-9e77-231253c09463 - null null
+2024-12-24 02:49:12.795 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:49:12.796 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.DeleteEmployee (EmployeeManagerAPI)'
+2024-12-24 02:49:12.798 +02:00 [INF] Route matched with {action = "DeleteEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteEmployee(System.Guid) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 02:49:12.809 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 02:49:12.830 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.DeleteEmployee (EmployeeManagerAPI) in 30.2945ms
+2024-12-24 02:49:12.834 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.DeleteEmployee (EmployeeManagerAPI)'
+2024-12-24 02:49:12.835 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5206/api/employee/delete/c4f7fbf9-1187-490b-9e77-231253c09463 - 200 null application/json; charset=utf-8 42.3566ms
+2024-12-24 02:57:57.890 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/manager/95c1104f-c380-40e1-a348-c3621ecc264c - null null
+2024-12-24 02:57:57.892 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:57:57.893 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 02:57:57.894 +02:00 [INF] Route matched with {action = "GetEmployeesByManager", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeesByManager(System.Guid) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 02:57:57.896 +02:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-24 02:57:57.897 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI) in 1.6868ms
+2024-12-24 02:57:57.898 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 02:57:57.899 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/manager/95c1104f-c380-40e1-a348-c3621ecc264c - 404 null text/plain; charset=utf-8 9.0072ms
+2024-12-24 02:58:55.241 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/manager/95c1104f-c380-40e1-a348-c3621ecc264c - null null
+2024-12-24 02:58:55.242 +02:00 [INF] CORS policy execution successful.
+2024-12-24 02:58:55.243 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 02:58:55.243 +02:00 [INF] Route matched with {action = "GetEmployeesByManager", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeesByManager(System.Guid) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 02:58:55.245 +02:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-24 02:58:55.246 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI) in 1.2251ms
+2024-12-24 02:58:55.247 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 02:58:55.248 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/manager/95c1104f-c380-40e1-a348-c3621ecc264c - 404 null text/plain; charset=utf-8 7.1029ms
+2024-12-24 03:02:21.932 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/search?name=em - null null
+2024-12-24 03:02:21.933 +02:00 [INF] CORS policy execution successful.
+2024-12-24 03:02:21.934 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 03:02:21.934 +02:00 [INF] Route matched with {action = "SearchEmployeesByName", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchEmployeesByName(System.String) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 03:02:21.936 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 03:02:21.937 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI) in 0.9832ms
+2024-12-24 03:02:21.937 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 03:02:21.938 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/search?name=em - 200 null application/json; charset=utf-8 6.3136ms
+2024-12-24 03:02:22.003 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/search?name=emp - null null
+2024-12-24 03:02:22.004 +02:00 [INF] CORS policy execution successful.
+2024-12-24 03:02:22.005 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 03:02:22.006 +02:00 [INF] Route matched with {action = "SearchEmployeesByName", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchEmployeesByName(System.String) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 03:02:22.007 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 03:02:22.009 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI) in 1.6051ms
+2024-12-24 03:02:22.010 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 03:02:22.011 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/search?name=emp - 200 null application/json; charset=utf-8 7.7947ms
+2024-12-24 03:02:24.495 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/search?name=Employee%20One - null null
+2024-12-24 03:02:24.498 +02:00 [INF] CORS policy execution successful.
+2024-12-24 03:02:24.499 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 03:02:24.500 +02:00 [INF] Route matched with {action = "SearchEmployeesByName", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchEmployeesByName(System.String) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 03:02:24.502 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 03:02:24.504 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI) in 2.2643ms
+2024-12-24 03:02:24.508 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 03:02:24.509 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/search?name=Employee%20One - 200 null application/json; charset=utf-8 13.9549ms
+2024-12-24 03:02:44.748 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/manager/95c1104f-c380-40e1-a348-c3621ecc264c - null null
+2024-12-24 03:02:44.751 +02:00 [INF] CORS policy execution successful.
+2024-12-24 03:02:44.752 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 03:02:44.753 +02:00 [INF] Route matched with {action = "GetEmployeesByManager", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeesByManager(System.Guid) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 03:02:44.759 +02:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-24 03:02:44.761 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI) in 6.1896ms
+2024-12-24 03:02:44.762 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 03:02:44.763 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/manager/95c1104f-c380-40e1-a348-c3621ecc264c - 404 null text/plain; charset=utf-8 14.6979ms
+2024-12-24 03:03:20.344 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/manager/95c1104f-c380-40e1-a348-c3621ecc264c - null null
+2024-12-24 03:03:20.346 +02:00 [INF] CORS policy execution successful.
+2024-12-24 03:03:20.346 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 03:03:20.347 +02:00 [INF] Route matched with {action = "GetEmployeesByManager", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeesByManager(System.Guid) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 03:03:20.348 +02:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-24 03:03:20.349 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI) in 0.8949ms
+2024-12-24 03:03:20.350 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 03:03:20.351 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/manager/95c1104f-c380-40e1-a348-c3621ecc264c - 404 null text/plain; charset=utf-8 6.8084ms
+2024-12-24 03:04:30.253 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5206/api/employee/create - null null
+2024-12-24 03:04:30.255 +02:00 [INF] CORS policy execution successful.
+2024-12-24 03:04:30.256 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5206/api/employee/create - 204 null null 3.2069ms
+2024-12-24 03:04:30.258 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5206/api/employee/create - application/json 121
+2024-12-24 03:04:30.260 +02:00 [INF] CORS policy execution successful.
+2024-12-24 03:04:30.260 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.CreateEmployee (EmployeeManagerAPI)'
+2024-12-24 03:04:30.261 +02:00 [INF] Route matched with {action = "CreateEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateEmployee(EmployeeManagerAPI.Models.Employee) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 03:04:30.262 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 03:04:30.263 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.CreateEmployee (EmployeeManagerAPI) in 1.3907ms
+2024-12-24 03:04:30.264 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.CreateEmployee (EmployeeManagerAPI)'
+2024-12-24 03:04:30.265 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5206/api/employee/create - 200 null application/json; charset=utf-8 6.315ms
+2024-12-24 03:04:34.244 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/manager/95c1104f-c380-40e1-a348-c3621ecc264c - null null
+2024-12-24 03:04:34.246 +02:00 [INF] CORS policy execution successful.
+2024-12-24 03:04:34.247 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 03:04:34.249 +02:00 [INF] Route matched with {action = "GetEmployeesByManager", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeesByManager(System.Guid) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 03:04:34.251 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 03:04:34.253 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI) in 2.3225ms
+2024-12-24 03:04:34.255 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.GetEmployeesByManager (EmployeeManagerAPI)'
+2024-12-24 03:04:34.257 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/manager/95c1104f-c380-40e1-a348-c3621ecc264c - 200 null application/json; charset=utf-8 13.0672ms
+2024-12-24 03:04:46.896 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5206/api/employee/update/8ca50ff2-02df-48e8-bd8a-6d0101d0de38 - null null
+2024-12-24 03:04:46.898 +02:00 [INF] CORS policy execution successful.
+2024-12-24 03:04:46.899 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5206/api/employee/update/8ca50ff2-02df-48e8-bd8a-6d0101d0de38 - 204 null null 3.5902ms
+2024-12-24 03:04:46.902 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5206/api/employee/update/8ca50ff2-02df-48e8-bd8a-6d0101d0de38 - application/json 217
+2024-12-24 03:04:46.903 +02:00 [INF] CORS policy execution successful.
+2024-12-24 03:04:46.904 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.UpdateEmployee (EmployeeManagerAPI)'
+2024-12-24 03:04:46.905 +02:00 [INF] Route matched with {action = "UpdateEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateEmployee(System.Guid, EmployeeManagerAPI.Models.Employee) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 03:04:46.907 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 03:04:46.908 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.UpdateEmployee (EmployeeManagerAPI) in 1.533ms
+2024-12-24 03:04:46.909 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.UpdateEmployee (EmployeeManagerAPI)'
+2024-12-24 03:04:46.910 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5206/api/employee/update/8ca50ff2-02df-48e8-bd8a-6d0101d0de38 - 200 null application/json; charset=utf-8 7.9234ms
+2024-12-24 03:04:58.992 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/search?name=am - null null
+2024-12-24 03:04:58.994 +02:00 [INF] CORS policy execution successful.
+2024-12-24 03:04:58.994 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 03:04:58.995 +02:00 [INF] Route matched with {action = "SearchEmployeesByName", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchEmployeesByName(System.String) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 03:04:58.997 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 03:04:58.997 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI) in 0.9522ms
+2024-12-24 03:04:58.998 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 03:04:58.999 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/search?name=am - 200 null application/json; charset=utf-8 6.6247ms
+2024-12-24 03:04:59.066 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/search?name=ami - null null
+2024-12-24 03:04:59.067 +02:00 [INF] CORS policy execution successful.
+2024-12-24 03:04:59.068 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 03:04:59.069 +02:00 [INF] Route matched with {action = "SearchEmployeesByName", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchEmployeesByName(System.String) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 03:04:59.070 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 03:04:59.071 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI) in 1.308ms
+2024-12-24 03:04:59.072 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 03:04:59.073 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/search?name=ami - 200 null application/json; charset=utf-8 6.6728ms
+2024-12-24 03:05:00.311 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/employee/search?name=Ami%20Arditi%20My%20Love - null null
+2024-12-24 03:05:00.314 +02:00 [INF] CORS policy execution successful.
+2024-12-24 03:05:00.315 +02:00 [INF] Executing endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 03:05:00.317 +02:00 [INF] Route matched with {action = "SearchEmployeesByName", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchEmployeesByName(System.String) on controller EmployeeManagerAPI.Controllers.EmployeeController (EmployeeManagerAPI).
+2024-12-24 03:05:00.318 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeManagerAPI.Models.Employee, EmployeeManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 03:05:00.320 +02:00 [INF] Executed action EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI) in 1.4127ms
+2024-12-24 03:05:00.321 +02:00 [INF] Executed endpoint 'EmployeeManagerAPI.Controllers.EmployeeController.SearchEmployeesByName (EmployeeManagerAPI)'
+2024-12-24 03:05:00.321 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/employee/search?name=Ami%20Arditi%20My%20Love - 200 null application/json; charset=utf-8 10.7064ms
