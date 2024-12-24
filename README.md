@@ -26,7 +26,7 @@ A RESTful API for managing employee data. This project allows for the registrati
 
 6. Why In-Memory Data was Chosen Over a Database
 
-For this project, I opted to use in-memory data storage instead of a traditional database for the following reasons:
+## For this project, I opted to use in-memory data storage instead of a traditional database for the following reasons:
 
 ## 1. Development and Prototyping Speed:
 
